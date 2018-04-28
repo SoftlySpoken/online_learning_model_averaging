@@ -7,7 +7,7 @@ Programs in this folder are all written in GNU Octave, version 3.8.0. It is high
 
 `trainLogisticRegression.m` and `trainNeuralNetwork.m`, if run directly, will train 10 logistic regression models and 10 neural networks respectively when run under this directory, the parameters of which are specified in the report. Note that because of the random initialization of weights in `trainNeuralNetwork.m`, the training result may differ slightly with every run.
 
-These two scripts will eventually save `lrParams.mat`, `nnParams.mat`, `regParams.mat` and `validationSet.mat` to the current directory. These files that have produced the results in my report are readily provided here.
+These two scripts will eventually save `lrParams.mat`, `nnParams.mat`, `regParams.mat` and `validationSet.mat` to the current directory. These files that have produced the results in my report are readily provided here. (Regrettably, `validationSet.mat` is too large for upload.)
 
 `validation.m`, if run directly, will load the four aforementioned `.mat` files, evaluate all 20 models on the validation set, select the best expert, and evaluate it on the test set.
 
